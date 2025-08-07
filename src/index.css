@@ -1,0 +1,75 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;  
+}
+.navbar-links li 
+{
+list-style: none;
+padding: 0;
+margin: 0;
+padding: 0px 20px;
+display: inline-block;
+}
+.navbar-links
+{
+margin: 0;
+padding: 0;  
+margin-left: 45%;
+}
+.navbar-links li a 
+{
+text-decoration: none;
+color: #fff;
+font-size: 1.2rem;
+font-weight: 500;
+transition: all 0.3s ease-in-out;
+}
+.content 
+{
+width: 90%;
+height: auto;  
+padding: 20px;
+margin: 0 auto;
+margin-top: 10% !important;
+}
+.navbar-toggler-icon 
+{
+color: #fff !important;
+background-color: white !important;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+}
+.navbar-toggler button {
+  border: none;
+  color: white !important;
+}
+
+
+@media (max-width: 768px) {
+
+.navbar-links li 
+{
+list-style: none;
+padding: 0;
+margin: 0;
+padding: 8px 10px;
+display: block;
+}
+.content 
+{
+width: 90%;
+height: auto;  
+padding: 20px;
+margin: 0 auto;
+margin-top: 20% !important;
+}
+
+}
